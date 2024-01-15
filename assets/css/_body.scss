@@ -1,0 +1,1557 @@
+@charset 'UTF-8';
+
+
+// Nav Bar
+
+.nav-bar-moblie {
+    display: none;
+}
+
+.head-banner {
+    font-family: "Kanit-Medium";
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-bar {
+    li {
+        margin: 0rem 0.5rem;
+        a {
+            padding: 0.5rem 1.5rem;
+            display: inline;
+            color: #333333;
+            text-decoration: none;
+            // font: 400 normal 1rem/70px $font-pri;
+        }
+
+        .dropdown {
+            text-decoration: none;
+
+            .dropdown-toggle {
+                background: none;
+                border: none;
+                padding: 0.5rem 1.5rem;
+                margin-bottom: 0;
+            }
+
+            &:hover {
+                p {
+                    color: #64A319;
+                }
+            }
+
+            .dropdown-menu {
+                border-radius: 0px;
+                margin-top: 14px;
+    
+                .txt-dropdown {
+                    color: #000;
+                    border: none;
+                    display: block;
+                    margin: 5px 0;
+    
+                    &:hover {
+                        color: #64A319;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            a {
+                color: #64A319;
+            }
+        }
+    }
+
+    .active {
+        a {
+        
+            color: #333333;
+            border: 1px solid #64A319;
+        }
+
+        .dropdown {
+                color: #333333;
+                border: 1px solid #64A319;
+                border-radius: 0px;
+        }
+    }
+}
+
+.social-icon {
+    li {
+        a {
+            color: #333333;
+            margin-left: 1rem;
+        }
+
+        &:hover {
+            a {
+                color: #64A319;
+            }
+        }
+    }
+}
+
+/* Home Slide */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+////////// Index //////////
+.lSPager.lSGallery {
+    margin-top: 5px !important;
+}
+// Main Home
+#items-slide {
+    .slide-item {
+        height: 70vh;
+        padding-top: 25vh; 
+
+        .haed-main {
+            .head-title {
+                font-family: "Kanit-Medium";
+                margin-bottom: 0 !important;
+            }
+        }
+        .btn-readmore {
+            display: inline-block;
+            background-color: #64A319;
+            padding: 0.7rem 2rem;
+            margin: 2rem 0rem;
+        
+            a { 
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.main-home {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    color: #fff;
+
+    .lSSlideOuter .lSPager.lSpg {
+        display: none;
+    }
+
+    // .lSPrev {
+    //     // display: none;
+    // }
+
+    // .lSNext {
+    //     // display: none;
+    // }
+}
+
+// Search Products
+.search-products {
+    padding: 5rem 0rem;
+
+    .box-search {
+        background-color: #F9FBE4;
+        border-left: 3px solid #64A319;
+
+        svg {
+            padding: 0.7rem 3rem;
+            color: #64A319;
+        }
+    }
+
+    .text-quality {
+        padding: 3rem;
+
+        .title {
+            font-family: "Kanit-Medium";
+        }
+
+        .desc {
+            padding: 2rem 0rem;
+            color: #707070;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            font-family: "Kanit-Medium";
+
+            h5 {
+                display: inline;
+                svg {
+                    padding-left: 10px;
+                }
+            }
+            &:hover {
+                h5 {
+                    color: #64A319;
+                }
+            }
+        }
+    }
+}
+
+// About Us
+.about-us {
+    background-color: #6DA921;
+
+    .img-about {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .box-about {
+        height: 100%;
+        background-color: #64A319;
+        padding-top: 3rem;
+        padding-bottom: 2.5rem;
+        color: #fff;
+    }
+
+    .box-detail {
+        width: 100%;
+        border-right: 3px solid #A2C875;
+        background-color: #6DA921;
+        h2 {
+            padding: 0.7rem 3rem;
+            font-family: "Kanit-Medium";
+        }
+    }
+
+    .text-about {
+        .desc {
+            padding: 2rem 3rem;
+        }
+    }
+
+    .box-services {
+        display: flex;
+        padding: 0rem 3rem;
+        .service-industries {
+            .border-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                max-width: 50px;
+                max-height: 50px;
+                min-width: 50px;
+                min-height: 50px;
+                border-radius: 50%;
+                background-color: #6DA921;
+            }
+            h5 {
+                padding-left: 1rem;
+                font-family: "Kanit-Medium";
+            }
+        }
+    }
+}
+
+// Our Products
+.our-products {
+    padding: 5rem 0rem 5rem 0rem;
+
+    .box-products {
+        background-color: #F9FBE4;
+        border-left: 3px solid #64A319;
+
+        svg {
+            padding: 0.7rem 3rem;
+            color: #64A319;
+        }
+    }
+
+    .text-products {
+        padding: 3rem;
+
+        .title {
+            font-family: "Kanit-Medium";
+        }
+
+        .desc {   
+            padding: 2rem 0rem;
+            color: #707070;
+        }
+    }
+}
+
+.list-our-project-destop {
+    transition:         all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    li {
+        flex: 1;
+        a {
+            text-align: center;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            font-family: "Kanit-Medium";
+        }
+        &:hover {
+            a {
+                color: #64A319;
+            }
+        }
+    }
+    .active {
+        background-color: #64A319;
+        color: #fff;
+        transition:         all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        &:hover {
+            a {
+                color: #fff;
+                
+            }
+        }
+    }
+}
+
+.boxlist-products {
+    display: block;
+    margin: 2rem 0rem;
+}
+
+.grid-iso-item {
+    width: calc(25% - 1rem);
+    margin: 0rem 0.5rem;
+}
+
+.box-ourProject {
+    display: block;
+    transition:         all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    margin-bottom: 2rem;
+    .product-name {
+        padding: 1rem;
+        border: 1px solid #D6D6D6;
+        border-bottom-width: 0px;
+
+        .name {
+            color: #000;
+            font-family: "Kanit-Medium";
+        }
+
+        .type {
+            color: #707070;
+        }
+    }
+
+    .product-img {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .product-desc {
+        padding: 1rem;
+        border: 1px solid #D6D6D6;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+
+        .model {
+            color: #000;
+            font-family: "Kanit-Medium";
+        }
+
+        .gearbox {
+            color: #707070;
+        }
+
+        .maxspeed {
+            color: #707070;
+        }
+    }
+
+    .full-desc {
+        padding: 1rem 0rem;
+        border: 1px solid #D6D6D6;
+        text-align: center;
+        // transition:         all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+        p {
+            color: #000;
+            margin-bottom: 0 !important;
+            font-family: "Kanit-Regular";
+        }
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: #333333;
+        box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.2);
+        .full-desc {
+            background-color: #64A319;
+            p {
+                color: #fff;
+            }
+        }
+    }
+
+}
+
+
+////////// Products //////////
+
+.laptop-form {
+    display: block;
+}
+
+.mobile-form {
+    display: none;
+}
+
+// main banner
+.main-banner {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    color: #fff;
+
+    .items-banner {
+        padding: 15vh;
+    }
+}
+
+// show products
+.menu-products {
+    padding-bottom: 3rem;
+
+        .desc {
+            padding: 2rem 0rem;
+        }
+}
+
+.btn-showmore {
+    display: inline-block;
+    border: 1px solid #64A319;
+    padding: 0.7rem 2rem;
+    margin: 2rem 0rem;
+    
+    a { 
+        text-decoration: none;
+        color: #333333;
+    }
+
+    &:hover {
+        text-decoration: none;
+        background-color: #64A319;
+        a {
+            color: #fff;
+        }
+    }
+}
+
+
+////////// Products Detail //////////
+.show-products {
+    padding: 5rem 0rem;
+
+    .show-image {
+        img {
+            width: 100%;
+        }
+    }
+
+    .show-title {
+        padding-bottom: 1rem;
+        font-family: "Kanit-Medium";
+    }
+
+    .line-bottom {
+        padding-bottom: 1rem;
+        border-top: 2px solid #64A319;
+    }
+
+    .boxlist-detail {
+        padding-top: 1rem;
+        color: #707070;
+    }
+}
+
+.tab-detail {
+    padding: 1rem;
+    color: #707070;
+}
+
+.nav-tabs{
+    margin-top: 4rem;
+    border-bottom: 2px solid #64A319;
+    a{
+        margin: 1px 1px 0 0 !important;
+        background: #e0e0e0;
+        border-radius: 0 !important;
+        color: #000;
+    }
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff;
+    background: #64A319;
+    border-color: #64A319;
+}
+
+
+////////// Products Medical //////////
+.medical-desc {
+    .desc {
+        margin: 1.5rem 0rem;
+    }
+
+    .head {
+        font-family: "Kanit-Medium";
+    }
+
+    .path-medical {
+        li {
+            display: flex;
+        
+            &::before {
+                content: '-';
+                font-family: 'kanit';
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
+.nav-medical {
+    margin-top: 3rem !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #64A319 !important;
+    border-radius: 0px;
+    text-align: center;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+    border: 1px solid #D8D8D8;
+    text-align: center;
+    color: #000;
+
+    &:hover {
+        color: #64A319;
+    }
+}
+
+.head-detail {
+    margin: 3rem;
+
+    .head {
+        font-family: "Kanit-Medium";
+    }
+
+    .title {
+        border: 1px solid #C9C9C9;
+        color: #898989;
+        padding: 0.5rem 0rem;
+        margin: 1rem 0rem;
+        text-align: center;
+    }
+
+    .icon-detail {
+            text-align: center;
+
+            .box-icon {
+                height: 40px;
+                width: 40px;
+                margin: 0 auto;
+                background-color: #64A319;
+            }
+
+            .box-icon1 {
+                background-color: #FFB26F;
+            }
+
+            .box-icon2 {
+                background-color: #3C6479;
+            }
+    }
+
+    .subicon {
+        font-size: 12px;
+        color: #898989;
+        margin: 0.5rem 0rem;
+    }
+}
+
+.sub-menu {
+    display: none;
+    padding: 1.5rem !important;
+    background-color: #F5F5F5;
+    list-style: none;
+    transition:         all 600ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+    .box-submenu {
+        padding: 0.5rem 0rem !important;
+        
+        a {
+            color: #000;
+        }
+
+        &:hover {
+            a {
+                text-decoration: none;
+                color: #64A319;
+            }
+        }
+    }
+
+    &.active {
+        z-index: 999;
+        display: block;
+    }
+}
+
+.menu-automotion {
+    li {
+        .box-menu {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #969696;
+            padding: 1.5rem 1rem;
+            color: #fff;
+            border-radius: 0px;
+
+            p {
+                margin-bottom: 0;
+            }
+
+            svg {
+                font-size: 0.6rem;
+            }
+        }
+
+        .box-menu1 {
+            background-color: #49AF90;
+        }
+
+        .box-menu2 {
+            background-color: #3C6479;
+        }
+    }
+}
+
+.sub-menu-select {
+    display: none !important;
+}
+
+.products-type {
+    margin: 3rem;
+
+    .head-type {
+        background-color: #414141;
+        color: #fff;
+        text-align: center;
+        padding: 0.5rem 0rem;
+        margin-bottom: 0.5rem;
+    }
+
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.products-slide {
+    margin-bottom: 2rem;
+}
+
+.products-slide1 {
+    margin-bottom: 2rem;
+}
+
+.slide-products {
+    margin: 0px 5px !important;
+
+    .products-box {
+
+        .type {
+            border: 1px solid #FFB26F;
+            color: #FFB26F;
+            padding: 0.5rem 0rem;
+            text-align: center;
+        }
+    
+        .img-product {
+            border: 1px solid #FFB26F;
+            margin: 0.5rem 0rem;
+        }
+    
+        .repeat {
+            background-color: #F4F4BA;
+            padding: 0.5rem 0rem;
+            text-align: center;
+            color: #000;
+        }
+    
+        .maxpayload {
+            border: 1px solid #FFB26F;
+            background-color: #F5F5F5;
+            // color: #FFB26F;
+            padding: 0.5rem 0rem;
+            text-align: center;
+            margin: 0.5rem 0rem;
+            color: #000;
+        }
+    
+        .stroke {
+            border: 1px solid #FFB26F;
+            background-color: #D0D0D0;
+            // color: #FFB26F;
+            padding: 0.5rem 0rem;
+            text-align: center;
+            color: #000;
+        }
+
+        .img-product-sub {
+            border: 1px solid #FFB26F;
+            margin-bottom: 0.5rem;
+        }
+        
+        .name {
+            border: 1px solid #FFB26F;
+            color: #FFB26F;
+            padding: 0.5rem 0rem;
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+    }
+
+    &:hover {
+        .products-box {
+            .img-product {
+                box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.2);
+            }
+
+            .type {
+                background-color: #FFB26F;
+                color: #fff;
+            }
+
+            .img-product-sub {
+                box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.2);
+            }
+
+            .name {
+                background-color: #FFB26F;
+                color: #fff;
+            }
+
+            p {
+                color: #000;
+            }
+        }
+    }
+}
+
+.lSSlideOuter .lSPager.lSpg {
+    display: none;
+}
+
+.lSAction>a {
+    width: 32px;
+    display: block;
+    top: 50%;
+    height: 32px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    margin-top: -16px;
+    opacity: .2;
+    -webkit-transition: opacity .35s linear 0s;
+    transition: opacity .35s linear 0s;
+}
+
+.lSAction>.lSPrev {
+    background-image: url(../img/left-arrow.png);
+    left: 0px;
+}
+
+.lSAction>.lSNext {
+    background-image: url(../img/right-arrow.png);
+    right: 0px;
+}
+
+.path-subhead {
+    display: flex;
+    color: #fff;
+    background-color: #414141;
+    padding: 1.5rem 3rem !important;
+    li {
+        // display: flex;
+    
+        &:not(:nth-last-child(1)) {
+            &::after {
+                content: '/';
+                font-family: "Kanit";
+                color: #fff;
+                margin: 0rem 1rem;
+            }
+        }
+    }
+}
+
+.products-detail {
+    .img-product {
+        border: 1px solid #FFB26F;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.download-box {
+    background-color: #64A319;
+    text-align: center;
+
+    .btn-download {
+        color: #fff;
+        margin-bottom: 2.5rem;
+        width: 100%;
+        display: block;
+        padding: 0.5rem 2rem;
+    }
+
+    &:hover {
+        background-color: #6DA921;
+    }
+}
+
+.detail-box {
+    li {
+        .head-box {
+            .head {
+                font-weight: 600;
+                font-family: "Kanit-Medium";
+            }
+        }
+
+        .desc-box {
+            margin: 0.5rem 0rem;
+
+            .desc {
+                font-weight: 200;
+            }
+        }
+    }
+}
+
+
+
+////////// News //////////
+
+
+////////// News Detail //////////
+.news-detail {
+    padding: 5rem 0rem;
+
+    .about-img {
+        padding-bottom: 3rem; 
+        img {
+            width: 100%;
+        }
+    }
+
+    .box-about {
+        padding-bottom: 3rem; 
+
+        h2 {
+            padding-bottom: 0.5rem; 
+            color: #64A319;
+            border-bottom: 1px solid #64A319;
+            font-family: "Kanit-Medium";
+        }
+
+        .box-newstype {
+            padding-top: 0.5rem;
+            color: #707070;
+            font-family: "Kanit-Medium";
+        }
+
+        .desc {
+            padding-top: 2rem; 
+            color: #707070;
+        }
+    }
+}
+
+
+////////// About Us //////////
+.about-page {
+    padding: 5rem 0rem;
+
+    .head-about {
+        margin: 3rem 0rem;
+        font-family: "Kanit-Medium";
+    }
+
+    ul li {
+        .about-img {
+            padding-bottom: 3rem; 
+        }
+
+        .box-about {
+            padding-bottom: 3rem; 
+
+            h4 {
+                padding-bottom: 3rem; 
+            }
+
+            .desc {
+                color: #707070;
+            }
+        }
+    }
+}
+
+
+////////// Contact Us //////////
+
+.contact-us {
+    padding: 5rem 0rem;
+
+    .contact-icon {
+        svg {
+            color: #64A319;
+            padding-bottom: 1rem;
+        }
+
+        .desc {
+            color: #707070;
+        }
+    }
+
+    .contact-map {
+        padding: 5rem 0rem;
+    }
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0rem;
+    h2 {
+        padding-bottom: 1rem;
+        font-family: "Kanit-Medium";
+    }
+    .form-control {
+        border-radius: 0%;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    .form-control-message {
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+}
+
+.btn-submit {
+    border-radius: 0%;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
+    background-color: #64A319;
+    color: #fff;
+}
+
+
+// Footer
+.section-footer {
+    margin-top: 5rem;
+    padding: 5rem 0rem;
+    width: 100%;
+    background-color: #3C3C3C;
+    background-image: url("../img/map-footer.png");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .logo-footer {    
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 130px;
+        transform: translateY(-150px);
+        border-radius: 50%;
+        border: 1px solid #64A319;
+        background-color: #fff;
+        margin: 0 auto;
+    }
+
+    .text-footer {
+        color: #fff;
+
+        .head-footer {
+            padding: 2rem 0rem;
+            font-family: "Kanit-Medium";
+        }
+
+        .address {
+            padding-bottom: 1rem;
+        }
+
+        .contact-footer {
+            padding-bottom: 2rem;
+            text-align:center;
+            .contact-tel {
+                text-align: center;
+            }
+        }
+    }
+
+    .social-footer {
+        li {
+            a {
+                color: #fff;
+                margin: 1rem;
+            }
+            &:hover {
+                a {
+                    color: #64A319;
+                }
+            }
+        }
+    }
+}
+
+
+//  ตั้งแต่หน้าจอ 767 ลงมา
+@media only screen and (max-width:767px) {
+
+    // Nav Bar
+    .nav-bar {
+        display: none;
+    }
+
+    .nav-bar-moblie {
+        width: 100%;
+        height: 70px;
+        padding: 1rem 0rem;
+        display: block;
+        position: fixed;
+        background: #fff;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+
+        .main-logo {
+            img {
+                width: 80%;
+                height: auto;
+            }
+        }
+    }
+
+    .toggle-menu {
+        svg {
+            font-size: 1.5rem;
+        }
+    }
+
+    .mobile-menu {
+        width: 100%;
+        background: #fff;
+        display: none;
+        z-index: 9999;
+        text-align: center;
+        list-style: none;
+        padding: 0.5rem 0rem;
+
+        a {
+            display: block;
+            padding: 0.5rem 0rem;
+            color: #000;
+            font-family: "Kanit-Medium";
+        }
+
+        &.active {
+            position: fixed;
+            top: 70px;
+            left: 0px;
+            display: block;
+        }
+    }
+
+    // Main Home
+    #items-slide {
+        .slide-item {
+            height: 70vh;
+            padding-top: 20vh;
+
+            .haed-main {
+                h1 {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .btn-readmore {
+                display: inline-block;
+                background-color: #64A319;
+                padding: 0.7rem 2rem;
+                margin: 2rem 0rem;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    // Search Products
+    .search-products {
+        padding: 3rem 0rem;
+
+        .box-search {
+            background-color: #F9FBE4;
+            border-left: 3px solid #64A319;
+
+            svg {
+                padding: 0.7rem 1rem;
+                color: #64A319;
+            }
+        }
+
+        .text-quality {
+            padding: 1rem;
+
+            .desc {
+                text-align: justify;
+                padding: 2rem 0rem;
+                color: #707070;
+            }
+
+            a {
+                text-decoration: none;
+
+                h5 {
+                    display: inline;
+
+                    svg {
+                        padding-left: 10px;
+                    }
+                }
+
+                &:hover {
+                    h5 {
+                        color: #64A319;
+                    }
+                }
+            }
+        }
+    }
+
+    // About Us
+    .about-us {
+        background-color: #6DA921;
+
+        .img-about {
+            img {
+                padding-top: 1rem;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .box-about {
+            height: 100%;
+            background-color: #64A319;
+            padding-top: 1rem;
+            padding-bottom: 2.5rem;
+            color: #fff;
+        }
+
+        .box-detail {
+            width: 100%;
+            border-right: 3px solid #A2C875;
+            background-color: #6DA921;
+
+            h2 {
+                padding: 0.7rem 1rem;
+                font-family: "Kanit-Medium";
+            }
+        }
+
+        .text-about {
+            .desc {
+                text-align: justify;
+                padding: 2rem 1rem;
+            }
+        }
+
+        .box-services {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0rem 1rem;
+
+            .service-industries {
+                padding: 0.5rem 0rem;
+
+                .border-icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 50px;
+                max-height: 50px;
+                min-width: 50px;
+                min-height: 50px;
+                    border-radius: 50%;
+                    background-color: #6DA921;
+                }
+
+                h5 {
+                    padding-left: 1rem;
+                    font-family: "Kanit-Medium";
+                }
+            }
+        }
+    }
+
+    // Our Products
+    .our-products {
+        padding: 3rem 0rem 3rem 0rem;
+
+        .box-products {
+            svg {
+                padding: 0.7rem 1rem;
+            }
+        }
+
+        .text-products {
+            padding: 1rem;
+        }
+    }
+
+    .list-our-project-mobile {
+        height: 40px;
+        width: 100%;
+        background-color: #64A319;
+        color: #fff;
+        border: 1px solid #f1f1f1;
+        font-size: 1rem;
+        padding-left: 0.5rem;
+    }
+
+    .grid-iso-item {
+        width: calc(100% - 1rem);
+        margin: 0rem 0.5rem;
+    }
+
+    ////////// Products //////////
+
+    // main banner
+    .main-banner {
+        width: 100%;
+        height: auto;
+        margin-top: 70px;
+        color: #fff;
+
+        .head-banner {
+            h1 {
+                font-size: 1.7rem;
+            }
+        }
+
+        .items-banner {
+            padding: 5vh;
+        }
+    }
+
+    .head-detail {
+        margin: 1rem;
+    }
+
+    .products-type {
+        margin: 1rem;
+    }
+
+    .path-subhead {
+        display: block;
+        padding: 1rem !important;
+    }
+
+    .menu-automotions {
+        display: none;
+    }
+
+    .sub-menu-select {
+        background-color: #64A319 !important;
+        border: none !important;
+        color: #fff !important;
+        display: block !important;
+        width: 100%;
+    }
+
+    .show>.btn-secondary.dropdown-toggle {
+        color: #fff;
+        background-color: #64A319;
+        border-color: #64A319;
+    }
+
+    .btn-secondary:hover {
+        color: #fff;
+        background-color: #64A319;
+        border-color: #64A319;
+    }
+
+    .w-25 {
+        width: 50%!important;
+    }
+
+    .download-box {
+        .btn-download {
+            margin-bottom: 1rem;
+        }
+    }
+
+}
+
+//  ตั้งแต่หน้าจอ 768 ขึ้นไป
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    ///// Index
+    // Nav Bar
+    .nav-bar {
+        display: none;
+    }
+
+    .nav-bar-moblie {
+        width: 100%;
+        height: 70px;
+        padding: 1rem 0rem;
+        display: block;
+        position: fixed;
+        background: #fff;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+
+        .main-logo {
+            img {
+                width: 80%;
+                height: auto;
+            }
+        }
+    }
+
+    .toggle-menu {
+        svg {
+            font-size: 1.5rem;
+        }
+    }
+
+    .mobile-menu {
+        width: 100%;
+        background: #fff;
+        display: none;
+        z-index: 9999;
+        text-align: center;
+        list-style: none;
+        padding: 0.5rem 0rem;
+
+        a {
+            display: block;
+            padding: 0.5rem 0rem;
+            color: #000;
+            font-family: "Kanit-Medium";
+        }
+
+        &.active {
+            position: fixed;
+            top: 70px;
+            left: 0px;
+            display: block;
+        }
+    }
+
+    // Chemical Industries
+    .box-services {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0rem 1rem;
+
+        .service-industries {
+            padding: 0.5rem 0rem;
+
+            .border-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                max-width: 50px;
+                max-height: 50px;
+                min-width: 50px;
+                min-height: 50px;
+                border-radius: 50%;
+                background-color: #6DA921;
+            }
+
+            h5 {
+                padding-left: 1rem;
+                font-family: "Kanit-Medium";
+            }
+        }
+    }
+
+    // Our Products
+    .grid-iso-item {
+        width: calc(50% - 1rem);
+        margin: 0rem 0.5rem;
+    }
+
+    ///// Products
+    // main banner
+    .main-banner {
+        width: 100%;
+        height: auto;
+        margin-top: 70px;
+        color: #fff;
+
+        .head-banner {
+            h1 {
+                font-size: 1.7rem;
+            }
+        }
+
+        .items-banner {
+            padding: 5vh;
+        }
+    }
+
+    .head-detail {
+        margin: 1rem;
+    
+        .title {
+            border: 1px solid #C9C9C9;
+            color: #898989;
+            padding: 0.5rem 0rem;
+            margin: 1rem 0rem;
+            text-align: center;
+        }
+    
+        .icon-detail {
+                text-align: center;
+    
+                .box-icon {
+                    height: 40px;
+                    width: 40px;
+                    margin: 0 auto;
+                    background-color: #64A319;
+                }
+    
+                .box-icon1 {
+                    background-color: #FFB26F;
+                }
+    
+                .box-icon2 {
+                    background-color: #3C6479;
+                }
+        }
+    
+        .subicon {
+            font-size: 12px;
+            color: #898989;
+            margin: 0.5rem 0rem;
+        }
+    }
+
+    .products-type {
+        margin: 1rem;
+    
+        .head-type {
+            background-color: #414141;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem 0rem;
+            margin-bottom: 0.5rem;
+        }
+    
+    
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .col-md-5 {
+        -ms-flex: 0 0 65%;
+        flex: 0 0 65%;
+        max-width: 65%;
+    }
+
+    .col-md-3 {
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .col-md-9 {
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+    .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-md-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .path-subhead {
+        display: block;
+        padding: 1rem !important;
+    }
+
+    .box-services .service-industries {
+        padding: 0.5rem 1rem;
+    }
+
+    .download-box {
+        .btn-download {
+            margin-bottom: 1rem;
+        }
+    }
+
+}
